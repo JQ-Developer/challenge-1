@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%; //1rem = 10px
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.35;
+  word-spacing: 0.1rem;
+}
+
+.lead {
+  line-height: 1.7;
+  color: $white;
+  opacity: 50%;
+
+  &--dark {
+    color: $very-dark-grayish-blue;
+    opacity: 50%;
+    line-height: 1.5;
+  }
+
+  &--p {
+    opacity: 70%;
+  }
+}
+
+.heading {
+  word-spacing: 0.2rem;
+  color: $white;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+
+  &--dark {
+    color: $very-dark-grayish-blue;
+  }
+}
+
+//SECTION : TESTIMONIALS
+.testimonials {
+  &__user-info {
+    word-spacing: 0.1rem;
+  }
+  &__author {
+    font-size: 1.5rem;
+  }
+}
